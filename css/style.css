@@ -1,0 +1,14 @@
+/* Don't delete this unless you want to build your own CSS! */
+@import "/css/w3.css";
+
+.main-content h1 {
+  color:red
+}
+
+.main-content a {
+  color: blue
+}
+
+.main-content {
+  margin: 5%
+}
