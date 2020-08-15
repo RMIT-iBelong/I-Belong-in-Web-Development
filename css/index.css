@@ -1,0 +1,94 @@
+/* 
+	
+	INFORMATION ABOUT THIS PAGE:
+
+	This page is the CSS for the index.html page.
+
+	You can:
+
+		* Read the code on this page
+
+	You cannot:
+
+		* Edit the code on this page
+
+*/
+
+/* Imports CSS from W3Schools to help with page structure */
+@import "/css/w3.css";
+
+/* Sets background colour */
+body {
+	background-color: #1C4C71;
+}
+
+/* Sets heading 1 colour */
+.main-content h1 {
+  	color: #FCF9E9;
+}
+
+/* Sets margin percent */
+.main-content {
+  	margin: 5%
+}
+
+/* The Interview button CSS */
+.button-interview {
+	position: relative;
+	background-color: #CC8E4C;
+	border: none;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 200px;
+	border-radius: 6px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/* Resources button CSS */
+.button-resources {
+	position: relative;
+	background-color: #0DB089;
+	border: none;
+	font-size: 28px;
+	color: #FFFFFF;
+	padding: 20px;
+	width: 200px;
+	border-radius: 6px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/* Back button CSS */
+.back-button {
+	position: relative;
+	background-color: #C6B656;
+	border: none;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 5px;
+	width: 200px;
+	border-radius: 6px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+/* Font colour */
+.font-color {
+	color: #FFFFFF;
+}
+
+/* Horizontal line colour */
+.hr-color {
+	background-color: #C6B656;
+}

@@ -1,14 +1,44 @@
-/* Don't delete this unless you want to build your own CSS! */
+/* 
+	
+	INFORMATION ABOUT THIS PAGE:
+
+	This page is the CSS for your interview.html and animation.html pages.
+
+	You can:
+
+		* Read the code on this page
+		* Edit the code on this page
+
+	You cannot:
+
+		* Remove the w3.css import (line 19)
+
+*/
+
+/* Imports CSS from W3Schools to help with page structure */
 @import "/css/w3.css";
 
-.main-content h1 {
-  color:red
+
+/* -------- YOUR CSS GOES BELOW -------- */
+
+
+/* Back button CSS */
+.back-button {
+	position: relative;
+	background-color: #C6B656;
+	border: none;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding: 5px;
+	width: 200px;
+	border-radius: 6px;
+	text-align: center;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
 }
 
-.main-content a {
-  color: blue
-}
-
-.main-content {
-  margin: 5%
+.animation-bg-color {
+	background-color: #312B39;
 }
